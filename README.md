@@ -1,6 +1,4 @@
-# Reference Zip Learners Index
-
-<h3 align="left">Feeling Stuck? - Reference (Cheat) Sheets</h3>
+# Reference Zip Learning Index
 
 <h3 align="left">Feeling Stuck? - Reference (Cheat) Sheets</h3>
 
