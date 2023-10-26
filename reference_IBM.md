@@ -142,9 +142,7 @@ ChatGPT4 Response:
 ### Table of Problem Categories, Algorithms, Terminology, and Resources
 | Problem Categories | Algorithms | Relevant Terminology/Jargon | Resources | Practice Examples |
 |--------------------|------------|-----------------------------|-----------|-------------------|
-| Classification| Logistic Regression | Label, Class, Target Variable | - [Resource 1](https://en.wikipedia.org/wiki/Statistical_classification)
-- [Resource 2](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning)
- - [Resource 3](https://towardsdatascience.com/machine-learning-classifiers-a5cc4e1b0623)3 | [Email Spam Filter](https://github.com/towardsdatascience/email-spam-filter) |
+| Classification| Logistic Regression | Label, Class, Target Variable | [Resource 1](https://en.wikipedia.org/wiki/Statistical_classification), [Resource 2](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning), [Resource 3](https://towardsdatascience.com/machine-learning-classifiers-a5cc4e1b0623)3 | [Email Spam Filter](https://github.com/towardsdatascience/email-spam-filter) |
 | Empty | Decision Trees | Node, Leaf, Branch | Resource 1, Resource 2, Resource 3 | Credit Scoring |
 | Regression | Linear Regression | Dependent Variable, Independent Variable, Slope | Resource 1, Resource 2, Resource 3 | [House Price Prediction](https://github.com/harshbg/Regression-Model) |
 | Clustering | K-Means | Centroid, Cluster, Intra-cluster Distance | Resource 1, Resource 2, Resource 3 | [Customer Segmentation](https://github.com/susanli2016/Machine-Learning-with-Python/blob/master/Customer%20Segmentation.ipynb) |
