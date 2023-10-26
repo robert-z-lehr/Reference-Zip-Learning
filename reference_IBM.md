@@ -1,7 +1,9 @@
 # Reference Sheet:
 ## Algorithms - Problem Categories - Terminology/Jargon
 ---
-### Common problems categories and algorithms in data science along with their respective terminology and jargon. *Source:* ChatGPT4
+### Common problems categories and algorithms in data science along with their respective terminology and jargon.
+
+- *Source:* ChatGPT4
 
 ---
 
