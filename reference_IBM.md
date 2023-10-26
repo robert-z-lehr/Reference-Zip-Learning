@@ -8,32 +8,32 @@
 #### Common Data Science Problem Categories
 | Problem Category | Description |
 |------------------|-------------|
-| Classification | Identifying to which of a set of categories a new observation belongs. |
-| Regression | Predicting a continuous value based on input variables. |
-| Clustering | Grouping a set of objects so that objects in the same group are more similar to each other than to those in other groups. |
-| Dimensionality Reduction | Reducing the number of random variables under consideration. |
-| Time Series Analysis | Analyzing time-ordered data points. |
-| Anomaly Detection | Identifying abnormal or rare items in a data set. |
-| Association Rule Mining | Discovering interesting relations between variables in large databases. |
-| Reinforcement Learning | Training models to make a sequence of decisions. |
-| Natural Language Processing (NLP) | Enabling computers to understand, interpret and produce human language. |
-| Recommendation Systems | Providing personalized recommendations to users.|
-| Ensemble Learning | Improving performance by training multiple learners to solve the same problem.|
-| Neural Networks | Recognizing patterns and interpreting data through machine perception, labeling, and clustering.|
+| [**Classification**](https://en.wikipedia.org/wiki/Statistical_classification) | Identifying to which of a set of categories a new observation belongs. |
+| [**Regression**](https://en.wikipedia.org/wiki/Regression_analysis) | Predicting a continuous value based on input variables. |
+| [**Clustering**](https://en.wikipedia.org/wiki/Cluster_analysis) | Grouping a set of objects so that objects in the same group are more similar to each other than to those in other groups. |
+| [**Dimensionality Reduction**](https://en.wikipedia.org/wiki/Dimensionality_reduction) | Reducing the number of random variables under consideration. |
+| [**Time Series Analysis**](https://en.wikipedia.org/wiki/Time_series) | Analyzing time-ordered data points. |
+| [**Anomaly Detection**](https://en.wikipedia.org/wiki/Anomaly_detection) | Identifying abnormal or rare items in a data set. |
+| [**Association Rule Mining**](https://en.wikipedia.org/wiki/Association_rule_learning) | Discovering interesting relations between variables in large databases. |
+| [**Reinforcement Learning**](https://en.wikipedia.org/wiki/Reinforcement_learning) | Training models to make a sequence of decisions. |
+| [**Natural Language Processing (NLP)**](https://en.wikipedia.org/wiki/Natural_language_processing) | Enabling computers to understand, interpret and produce human language. |
+| [**Recommendation Systems**](https://en.wikipedia.org/wiki/Recommender_system) | Providing personalized recommendations to users.|
+| [**Ensemble Learning**](https://www.sciencedirect.com/science/article/pii/S1877050918312463) | Improving performance by training multiple learners to solve the same problem.|
+| [**Neural Networks**](https://en.wikipedia.org/wiki/Artificial_neural_network) | Recognizing patterns and interpreting data through machine perception, labeling, and clustering.|
 
 #### Common Data Science Algorithms
 | Algorithm | Description |
 |-----------|-------------|
-| Linear Regression | Assumes a linear relationship between inputs and the target variable. |
-| Logistic Regression | Used for binary outcomes. |
-| Decision Trees | A flowchart-like tree structure for decision-making. |
-| Random Forest | Averages multiple decision trees for more accurate predictions. |
-| Support Vector Machines (SVM) | Used for classification and regression tasks. |
-| K-Nearest Neighbors (KNN) | Classifies a data point based on how its neighbors are classified. |
-| Naive Bayes | A probabilistic classifier based on Bayes' theorem. |
-| Principal Component Analysis (PCA) | Transforms original variables into a new set of orthogonal | variables. |
-| K-Means Clustering | Divides a dataset into k distinct, non-overlapping clusters. |
-| Gradient Boosting | Combines multiple weak learning models to create a strong predictive model. |
+| [Linear Regression](https://en.wikipedia.org/wiki/Linear_regression) | Assumes a linear relationship between inputs and the target variable. |
+| [Logistic Regression](https://en.wikipedia.org/wiki/Logistic_regression) | Used for binary outcomes. |
+| [Decision Trees](https://en.wikipedia.org/wiki/Decision_tree) | A flowchart-like tree structure for decision-making. |
+| [Random Forest](https://en.wikipedia.org/wiki/Random_forest) | Averages multiple decision trees for more accurate predictions. |
+| [Support Vector Machines (SVM)](https://en.wikipedia.org/wiki/Support_vector_machine) | Used for classification and regression tasks. |
+| [K-Nearest Neighbors (KNN)](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm) | Classifies a data point based on how its neighbors are classified. |
+| [Naive Bayes](https://en.wikipedia.org/wiki/Naive_Bayes_classifier) | A probabilistic classifier based on Bayes' theorem. |
+| [Principal Component Analysis (PCA)](https://en.wikipedia.org/wiki/Principal_component_analysis) | Transforms original variables into a new set of orthogonal | variables. |
+| [K-Means Clustering](https://en.wikipedia.org/wiki/K-means_clustering) | Divides a dataset into k distinct, non-overlapping clusters. |
+| [Gradient Boosting](https://en.wikipedia.org/wiki/Gradient_boosting) | Combines multiple weak learning models to create a strong predictive model. |
 
 ---
 
