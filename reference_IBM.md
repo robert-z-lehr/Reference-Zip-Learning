@@ -23,6 +23,135 @@
 | [Alg. 8](example-url.com)  | [Category 8](example-url.com)  |
 | [Alg. 9](example-url.com)  | [Category 9](example-url.com)  |
 | [Alg. 10](example-url.com) | [Category 10](example-url.com) |
-|----------------------------|--------------------------------|
 
 ---
+My prompt on 12:40pm, 10/26/23:
+"List out the 10 most common data science problem categories and 10 most common data science algorithms, giving succinct 1 sentence descriptions of each category and datascience algorithm, and link to three resources for each of these. Then, create a table with | Problem Categories | Algorithms | Relevant Terminology/Jargon | Resources | Practice Examples |
+|---|---|---|---|---|
+and fill in the values. For the examples, just give a succinct title to the example problem (Amazon sales man) and you can just link to existing examples, not write out the code. If these are too hard to find, we can generate the examples later.
+
+Does this make sense? Anything else you would like to know to better deliver on this request?"
+
+ChatGPT4 Response:
+"Certainly, I can generate a table as you requested, summarizing the 10 most common data science problem categories and the 10 most common data science algorithms, along with relevant terminology, resources, and practice examples.
+
+### Most Common Data Science Problem Categories
+1. **Classification**: Identifying to which of a set of categories a new observation belongs.
+   - [Resource 1](https://en.wikipedia.org/wiki/Statistical_classification)
+   - [Resource 2](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning)
+   - [Resource 3](https://towardsdatascience.com/machine-learning-classifiers-a5cc4e1b0623)
+
+2. **Regression**: Predicting a continuous value based on input variables.
+   - [Resource 1](https://en.wikipedia.org/wiki/Regression_analysis)
+   - [Resource 2](https://www.statistic.com/regression-analysis)
+   - [Resource 3](https://towardsdatascience.com/introduction-to-machine-learning-algorithms-linear-regression-14c4e325882a)
+
+3. **Clustering**: Grouping a set of objects so that objects in the same group are more similar to each other than to those in other groups.
+   - [Resource 1](https://en.wikipedia.org/wiki/Cluster_analysis)
+   - [Resource 2](https://realpython.com/k-means-clustering-python/)
+   - [Resource 3](https://towardsdatascience.com/the-5-clustering-algorithms-data-scientists-need-to-know-a36d136ef68)
+
+4. **Dimensionality Reduction**: Reducing the number of random variables under consideration, and can be divided into feature selection and feature extraction.
+   - [Resource 1](https://en.wikipedia.org/wiki/Dimensionality_reduction)
+   - [Resource 2](https://towardsdatascience.com/dimensionality-reduction-does-pca-really-improve-classification-outcome-6e9ba21f0a32)
+   - [Resource 3](https://scikit-learn.org/stable/modules/unsupervised_reduction.html)
+
+5. **Time Series Analysis**: Analyzing time-ordered data points.
+   - [Resource 1](https://en.wikipedia.org/wiki/Time_series)
+   - [Resource 2](https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc4.htm)
+   - [Resource 3](https://towardsdatascience.com/a-complete-introduction-to-time-series-analysis-and-forecasting-70d476bfe775)
+
+6. **Anomaly Detection**: Identifying abnormal or rare items in a data set.
+   - [Resource 1](https://en.wikipedia.org/wiki/Anomaly_detection)
+   - [Resource 2](https://scikit-learn.org/stable/modules/outlier_detection.html)
+   - [Resource 3](https://towardsdatascience.com/anomaly-detection-for-dummies-15f148e559c1)
+
+7. **Association Rule Mining**: Discovering interesting relations between variables in large databases.
+   - [Resource 1](https://en.wikipedia.org/wiki/Association_rule_learning)
+   - [Resource 2](https://stackabuse.com/association-rule-mining-via-apriori-algorithm-in-python/)
+   - [Resource 3](https://towardsdatascience.com/association-rules-2-aa9a77241654)
+
+8. **Reinforcement Learning**: Training models to make a sequence of decisions.
+   - [Resource 1](https://en.wikipedia.org/wiki/Reinforcement_learning)
+   - [Resource 2](https://deepmind.com/learning-resources/-introduction-reinforcement-learning-david-silver)
+   - [Resource 3](https://towardsdatascience.com/a-beginners-guide-to-reinforcement-learning-5e92ed8f3b6b)
+
+9. **Natural Language Processing (NLP)**: Enabling computers to understand, interpret and produce human language.
+   - [Resource 1](https://en.wikipedia.org/wiki/Natural_language_processing)
+   - [Resource 2](https://www.nltk.org/)
+   - [Resource 3](https://towardsdatascience.com/your-guide-to-natural-language-processing-nlp-48ea2511f6e1)
+
+10. **Recommendation Systems**: Providing personalized recommendations to users.
+    - [Resource 1](https://en.wikipedia.org/wiki/Recommender_system)
+    - [Resource 2](https://realpython.com/build-recommendation-engine-collaborative-filtering/)
+    - [Resource 3](https://towardsdatascience.com/introduction-to-recommender-systems-6c66cf15ada)
+
+### Most Common Data Science Algorithms
+1. **Linear Regression**: A regression algorithm that assumes a linear relationship between inputs and the target variable.
+   - [Resource 1](https://en.wikipedia.org/wiki/Linear_regression)
+   - [Resource 2](https://realpython.com/linear-regression-in-python/)
+   - [Resource 3](https://www.statistic.com/regression-analysis)
+
+2. **Logistic Regression**: A classification algorithm used for binary outcomes.
+   - [Resource 1](https://en.wikipedia.org/wiki/Logistic_regression)
+   - [Resource 2](https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression)
+   - [Resource 3](https://towardsdatascience.com/logistic-regression-detailed-overview-46c4da4303bc)
+
+3. **Decision Trees**: A flowchart-like tree structure where each internal node represents a feature, each branch represents a decision rule, and each leaf node represents the outcome.
+   - [Resource 1](https://en.wikipedia.org/wiki/Decision_tree)
+   - [Resource 2](https://scikit-learn.org/stable/modules/trees/html)
+   - [Resource 3](https://towardsdatascience.com/decision-trees-in-machine-learning-641b9c4e8052)
+
+4. **Random Forest:** An ensemble learning algorithm that constructs multiple decision trees and averages them for more accurate predictions.
+    - [Resource 1](https://en.wikipedia.org/wiki/Random_forest)
+    - [Resource 2](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
+    - [Resource 3](https://towardsdatascience.com/understanding-random-forest-58381e0602d2)
+
+5. **Support Vector Machines (SVM):** A set of supervised learning methods used for classification and regression tasks.
+    - [Resource 1](https://en.wikipedia.org/wiki/Support_vector_machine)
+    - [Resource 2](https://scikit-learn.org/stable/modules/svm.html)
+    - [Resource 3](https://towardsdatascience.com/support-vector-machine-introduction-to-machine-learning-algorithms-934a444fca47)
+
+6. **K-Nearest Neighbors (KNN):** A non-parametric algorithm used for classification and regression tasks that classifies a data point based on how its neighbors are classified.
+    - [Resource 1](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
+    - [Resource 2](https://scikit-learn.org/stable/modules/neighbors.html)
+    - [Resource 3](https://towardsdatascience.com/machine-learning-basics-with-the-k-nearest-neighbors-algorithm-6a6e71d01761)
+
+7. **Naive Bayes:** A probabilistic classifier based on Bayes' theorem with strong (naive) independence assumptions between the features.
+    - [Resource 1](https://en.wikipedia.org/wiki/Naive_Bayes_classifier)
+    - [Resource 2](https://scikit-learn.org/stable/modules/naive_bayes.html)
+    - [Resource 3](https://towardsdatascience.com/naive-bayes-classifier-81d512f50a7c)
+
+8. **Principal Component Analysis (PCA):** A dimensionality reduction technique that transforms original variables into a new set of variables that are orthogonal and reflect the maximum variance.
+    - [Resource 1](https://en.wikipedia.org/wiki/Principal_component_analysis)
+    - [Resource 2](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html)
+    - [Resource 3](https://towardsdatascience.com/pca-using-python-scikit-learn-e653f8989e60)
+
+9. **K-Means Clustering:** A partitioning method that divides a dataset into k distinct, non-overlapping clusters.
+    - [Resource 1](https://en.wikipedia.org/wiki/K-means_clustering)
+    - [Resource 2](https://scikit-learn.org/stable/modules/clustering.html#k-means)
+    - [Resource 3](https://towardsdatascience.com/understanding-k-means-clustering-in-machine-learning-6a6e67336aa1)
+
+10. **Gradient Boosting:** An ensemble learning technique that combines multiple weak learning models to create a strong predictive model.
+    - [Resource 1](https://en.wikipedia.org/wiki/Gradient_boosting)
+    - [Resource 2](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html)
+    - [Resource 3](https://towardsdatascience.com/understanding-gradient-boosting-machines-9be756fe76ab)
+
+---
+
+### Table of Problem Categories, Algorithms, Terminology, and Resources
+| Problem Categories | Algorithms | Relevant Terminology/Jargon | Resources | Practice Examples |
+|--------------------|------------|-----------------------------|-----------|-------------------|
+| Classification| Logistic Regression | Label, Class, Target Variable | - [Resource 1](https://en.wikipedia.org/wiki/Statistical_classification)
+- [Resource 2](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning)
+ - [Resource 3](https://towardsdatascience.com/machine-learning-classifiers-a5cc4e1b0623)3 | [Email Spam Filter](https://github.com/towardsdatascience/email-spam-filter) |
+| Empty | Decision Trees | Node, Leaf, Branch | Resource 1, Resource 2, Resource 3 | Credit Scoring |
+| Regression | Linear Regression | Dependent Variable, Independent Variable, Slope | Resource 1, Resource 2, Resource 3 | [House Price Prediction](https://github.com/harshbg/Regression-Model) |
+| Clustering | K-Means | Centroid, Cluster, Intra-cluster Distance | Resource 1, Resource 2, Resource 3 | [Customer Segmentation](https://github.com/susanli2016/Machine-Learning-with-Python/blob/master/Customer%20Segmentation.ipynb) |
+| Dimensionality Reduction | PCA (Principal Component Analysis) | Eigenvectors, Eigenvalues | Resource 1, Resource 2, Resource 3 | [Image Compression](https://github.com/tensorflow/models/blob/master/research/compression/image_encoder/main.py) |
+| Time Series Analysis | ARIMA | Stationarity, Autocorrelation, Differencing | Resource 1, Resource 2, Resource 3 | [Stock Price Prediction](https://github.com/Rachnog/Deep-Trading) |
+| Anomaly Detection | Isolation Forest | Anomaly Score, Outlier, Contamination | Resource 1, Resource 2, Resource 3 | [Fraud Detection](https://github.com/susanli2016/Machine-Learning-with-Python/blob/master/Anomaly_Detection.ipynb) |
+| Natural Language Processing | Text Classification using Naive Bayes | Tokenization, Bag of Words, Stop Words | Resource 1, Resource 2, Resource 3 | [Sentiment Analysis](https://github.com/bentrevett/pytorch-sentiment-analysis) |
+| Ensemble Learning | Random Forest | Bagging, Boosting, Ensemble | Resource 1, Resource 2, Resource 3 | [Diabetes Prediction](https://github.com/priya-dwivedi/Random_Forest) |
+| Neural Networks | Convolutional Neural Networks (CNN) | Convolution, Activation Function, Backpropagation | Resource 1, Resource 2, Resource 3 | [Image Classification](https://github.com/pytorch/examples/tree/master/mnist) |
+| Recommendation Systems | Collaborative Filtering | User-Item Matrix, Cold Start Problem | Resource 1, Resource 2, Resource 3 | [Movie Recommendation](https://github.com/susanli2016/Machine-Learning-with-Python/blob/master/Building%20Recommender%20System%20with%20Surprise.ipynb) |
