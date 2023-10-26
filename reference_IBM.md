@@ -1,15 +1,11 @@
 # Reference Sheet:
 ## Algorithms - Problem Categories - Terminology/Jargon
 ---
-### Find here, arguably, the 10 most common algorithms and problems categories in data science along with their respective terminology and jargon.
-- 3 examples problems for each problem category and algorithm combination are included.
-- A quiz is included for each problem category and algorithm combination as well.
-
-### *Source:* ChatGPT4
+### Common problems categories and algorithms in data science along with their respective terminology and jargon. *Source:* ChatGPT4
 
 ---
 
-## The 10 Algorithms & Problem Categories
+## Common Data Science Problem Categories & Algorithms
 
 |         Algorithms         |       Problem Categories       |
 |----------------------------|--------------------------------|
@@ -25,15 +21,6 @@
 | [Alg. 10](example-url.com) | [Category 10](example-url.com) |
 
 ---
-My prompt on 12:40pm, 10/26/23:
-"List out the 10 most common data science problem categories and 10 most common data science algorithms, giving succinct 1 sentence descriptions of each category and datascience algorithm, and link to three resources for each of these. Then, create a table with | Problem Categories | Algorithms | Relevant Terminology/Jargon | Resources | Practice Examples |
-|---|---|---|---|---|
-and fill in the values. For the examples, just give a succinct title to the example problem (Amazon sales man) and you can just link to existing examples, not write out the code. If these are too hard to find, we can generate the examples later.
-
-Does this make sense? Anything else you would like to know to better deliver on this request?"
-
-ChatGPT4 Response:
-"Certainly, I can generate a table as you requested, summarizing the 10 most common data science problem categories and the 10 most common data science algorithms, along with relevant terminology, resources, and practice examples.
 
 ### Most Common Data Science Problem Categories
 1. **Classification**: Identifying to which of a set of categories a new observation belongs.
