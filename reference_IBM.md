@@ -41,6 +41,23 @@
 
 ---
 
+#### Data Science Problem Categories, Algorithms, and Example Cases
+
+| Problem Category | Common Algorithms | Example Cases |
+|------------------|-------------------|---------------|
+| Classification   | - Logistic Regression<br>- Random Forest<br>- SVM | - Email spam filtering<br>- Customer churn prediction<br>- Medical diagnosis |
+| Regression       | - Linear Regression<br>- Ridge Regression<br>- Lasso Regression | - House price prediction<br>- Stock market forecasting<br>- Sales estimation |
+| Clustering       | - K-Means<br>- Hierarchical Clustering<br>- DBSCAN | - Customer segmentation<br>- Social network analysis<br>- Image segmentation |
+| Anomaly Detection| - Isolation Forest<br>- One-Class SVM<br>- k-NN | - Fraud detection<br>- Network intrusion detection<br>- Outlier detection in manufacturing |
+| Dimensionality Reduction | - PCA<br>- t-SNE<br>- LDA | - Feature selection in high-dimensional data<br>- Data visualization<br>- Noise reduction |
+| Time Series Analysis | - ARIMA<br>- LSTM<br>- Prophet | - Weather forecasting<br>- Financial market analysis<br>- Energy consumption prediction |
+| Natural Language Processing | - Naive Bayes<br>- LSTM<br>- BERT | - Sentiment analysis<br>- Machine translation<br>- Text summarization |
+| Recommender Systems | - Collaborative Filtering<br>- Content-Based Filtering<br>- Matrix Factorization | - Product recommendation in e-commerce<br>- Movie recommendation<br>- News article recommendation |
+| Reinforcement Learning | - Q-Learning<br>- Deep Q Network<br>- Policy Gradients | - Game playing<br>- Robotics<br>- Resource allocation |
+| Ensemble Learning | - Bagging<br>- Boosting<br>- Stacking | - Credit scoring<br>- Ensemble classifiers in healthcare<br>- Improved image recognition |
+
+---
+
 #### Common Data Science Jargon and Terminology
 
 | Term | Definition |
@@ -60,22 +77,5 @@
 | [Hyperparameter](https://en.wikipedia.org/wiki/Hyperparameter_(machine_learning)) | Parameters of the learning process, as opposed to those of the model itself. |
 | [Confusion Matrix](https://en.wikipedia.org/wiki/Confusion_matrix) | A table used to describe the performance of a classification model. |
 | [Imputation](https://en.wikipedia.org/wiki/Imputation_(statistics)) | The process of replacing missing data with substituted values. |
-
----
-
-#### Data Science Problem Categories, Algorithms, and Example Cases
-
-| Problem Category | Common Algorithms | Example Cases |
-|------------------|-------------------|---------------|
-| Classification   | - Logistic Regression<br>- Random Forest<br>- SVM | - Email spam filtering<br>- Customer churn prediction<br>- Medical diagnosis |
-| Regression       | - Linear Regression<br>- Ridge Regression<br>- Lasso Regression | - House price prediction<br>- Stock market forecasting<br>- Sales estimation |
-| Clustering       | - K-Means<br>- Hierarchical Clustering<br>- DBSCAN | - Customer segmentation<br>- Social network analysis<br>- Image segmentation |
-| Anomaly Detection| - Isolation Forest<br>- One-Class SVM<br>- k-NN | - Fraud detection<br>- Network intrusion detection<br>- Outlier detection in manufacturing |
-| Dimensionality Reduction | - PCA<br>- t-SNE<br>- LDA | - Feature selection in high-dimensional data<br>- Data visualization<br>- Noise reduction |
-| Time Series Analysis | - ARIMA<br>- LSTM<br>- Prophet | - Weather forecasting<br>- Financial market analysis<br>- Energy consumption prediction |
-| Natural Language Processing | - Naive Bayes<br>- LSTM<br>- BERT | - Sentiment analysis<br>- Machine translation<br>- Text summarization |
-| Recommender Systems | - Collaborative Filtering<br>- Content-Based Filtering<br>- Matrix Factorization | - Product recommendation in e-commerce<br>- Movie recommendation<br>- News article recommendation |
-| Reinforcement Learning | - Q-Learning<br>- Deep Q Network<br>- Policy Gradients | - Game playing<br>- Robotics<br>- Resource allocation |
-| Ensemble Learning | - Bagging<br>- Boosting<br>- Stacking | - Credit scoring<br>- Ensemble classifiers in healthcare<br>- Improved image recognition |
 
 ---
