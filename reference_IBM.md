@@ -22,7 +22,7 @@
 
 ---
 
-### Most Common Data Science Problem Categories
+### Common Data Science Problem Categories
 1. **Classification**: Identifying to which of a set of categories a new observation belongs.
    - [Resource 1](https://en.wikipedia.org/wiki/Statistical_classification)
    - [Resource 2](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning)
@@ -91,7 +91,7 @@
 
 ---
 
-### Most Common Data Science Algorithms
+### Common Data Science Algorithms
 1. **Linear Regression**: A regression algorithm that assumes a linear relationship between inputs and the target variable.
    - [Resource 1](https://en.wikipedia.org/wiki/Linear_regression)
    - [Resource 2](https://realpython.com/linear-regression-in-python/)
