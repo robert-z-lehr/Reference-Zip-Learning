@@ -5,20 +5,35 @@
 
 ---
 
-## Common Data Science Problem Categories & Algorithms
+#### Common Data Science Problem Categories
+| Problem Category | Description |
+|------------------|-------------|
+| Classification | Identifying to which of a set of categories a new observation belongs. |
+| Regression | Predicting a continuous value based on input variables. |
+| Clustering | Grouping a set of objects so that objects in the same group are more similar to each other than to those in other groups. |
+| Dimensionality Reduction | Reducing the number of random variables under consideration. |
+| Time Series Analysis | Analyzing time-ordered data points. |
+| Anomaly Detection | Identifying abnormal or rare items in a data set. |
+| Association Rule Mining | Discovering interesting relations between variables in large databases. |
+| Reinforcement Learning | Training models to make a sequence of decisions. |
+| Natural Language Processing (NLP) | Enabling computers to understand, interpret and produce human language. |
+| Recommendation Systems | Providing personalized recommendations to users.|
+| Ensemble Learning | Improving performance by training multiple learners to solve the same problem.|
+| Neural Networks | Recognizing patterns and interpreting data through machine perception, labeling, and clustering.|
 
-|         Algorithms         |       Problem Categories       |
-|----------------------------|--------------------------------|
-| [Alg. 1](example-url.com)  | [Category 1](example-url.com)  |
-| [Alg. 2](example-url.com)  | [Category 2](example-url.com)  |
-| [Alg. 3](example-url.com)  | [Category 3](example-url.com)  |
-| [Alg. 4](example-url.com)  | [Category 4](example-url.com)  |
-| [Alg. 5](example-url.com)  | [Category 5](example-url.com)  |
-| [Alg. 6](example-url.com)  | [Category 6](example-url.com)  |
-| [Alg. 7](example-url.com)  | [Category 7](example-url.com)  |
-| [Alg. 8](example-url.com)  | [Category 8](example-url.com)  |
-| [Alg. 9](example-url.com)  | [Category 9](example-url.com)  |
-| [Alg. 10](example-url.com) | [Category 10](example-url.com) |
+#### Common Data Science Algorithms
+| Algorithm | Description |
+|-----------|-------------|
+| Linear Regression | Assumes a linear relationship between inputs and the target variable. |
+| Logistic Regression | Used for binary outcomes. |
+| Decision Trees | A flowchart-like tree structure for decision-making. |
+| Random Forest | Averages multiple decision trees for more accurate predictions. |
+| Support Vector Machines (SVM) | Used for classification and regression tasks. |
+| K-Nearest Neighbors (KNN) | Classifies a data point based on how its neighbors are classified. |
+| Naive Bayes | A probabilistic classifier based on Bayes' theorem. |
+| Principal Component Analysis (PCA) | Transforms original variables into a new set of orthogonal | variables. |
+| K-Means Clustering | Divides a dataset into k distinct, non-overlapping clusters. |
+| Gradient Boosting | Combines multiple weak learning models to create a strong predictive model. |
 
 ---
 
