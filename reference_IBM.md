@@ -79,3 +79,176 @@
 | [Imputation](https://en.wikipedia.org/wiki/Imputation_(statistics)) | The process of replacing missing data with substituted values. |
 
 ---
+
+### Core useful Python concepts and techniques:
+Certainly, here are key learning takeaways based on those questions and other useful considerations:
+
+#### `range()` function:
+1. `range()` can be used with one, two, or three arguments: `range(stop)`, `range(start, stop)`, and `range(start, stop, step)`.
+2. The `stop` value is exclusive, and the default `start` value is 0.
+
+#### While Loop and `break`:
+3. You can exit a `while` loop prematurely using the `break` statement.
+4. Always make sure the condition in `while` eventually evaluates to `False` to prevent infinite loops.
+
+#### Looping in Reverse:
+5. You can loop through a sequence in reverse using `reversed()` or setting the `step` argument in `range()` to `-1`.
+
+#### Initialize Variable Based on Iteration:
+6. Variables can be dynamically named, though this is not recommended. Use data structures like dictionaries for this purpose instead.
+
+#### `enumerate()`:
+7. `enumerate()` returns an iterator that produces tuples containing indices and value from the iterable.
+8. It's useful when you need to track both the index and the value in the loop.
+
+#### Avoiding Index Out-of-Bounds:
+9. Always check that the index is within the range of the list's size: `0 <= index < len(list)`.
+10. IndexError is typically raised when you try to access an index that is out of the range of valid indices for a list, string, or other indexed data structure.
+
+#### Error Identification:
+11. `IndexError` is raised when you try to access an index that is out of bounds. Make sure to handle this appropriately in your code, usually with a conditional statement to check the index range or by using try-except blocks.
+
+#### Output Formatting:
+12. You can control the end character in `print()` by setting the `end` parameter (default is a newline).
+13. Floating-point numbers can be formatted to a fixed number of decimal places using format specifiers like `:.6f`.
+
+#### Namespaces:
+14. A namespace is a container that holds a set of identifiers (variables, functions, classes, etc.) and allows the disambiguation of their usages.
+
+Certainly, here are 20 more key Python concepts and techniques that you may find useful in your programming journey:
+
+#### List Comprehensions:
+15. List comprehensions provide a concise way to create lists: `[x**2 for x in range(10)]`.
+
+#### Lambda Functions:
+16. Lambda functions are small anonymous functions that can take any number of arguments but can only have one expression.
+```
+square = lambda x: x * x
+print(square(5))  # Output: 25
+```
+- In this example, lambda x: x * x defines a function that squares the input. We assign this lambda function to the variable square and then use it to square 5.
+
+#### Tuples and Immutability:
+17. Tuples are similar to lists, but they are immutable. Once a tuple is created, you can't change its values.
+```
+my_tuple = (1, 2, 3)
+# my_tuple[0] = 4  # This would raise a TypeError because tuples are immutable
+print(my_tuple[0])  # Output: 1
+```
+In this example, my_tuple is a tuple containing three integers. Attempting to change an element of the tuple (as commented out) would raise a TypeError.
+
+#### Dictionary Operations:
+18. Dictionaries are mutable, and key-value pairs can be added or removed dynamically using `dict[key] = value` and `del dict[key]`.
+
+#### Slicing:
+19. Slicing is a feature that allows you to obtain a sublist, substring, or subarray from a list, string, or array. The syntax is `sequence[start:stop:step]`.
+
+#### Function Arguments:
+20. Python functions support positional, keyword, and default arguments. You can also use `*args` and `**kwargs` to pass variable-length argument lists.
+
+#### Global and Local Variables:
+21. Variables declared inside a function are local to that function. You can use the `global` keyword to modify a global variable inside a function.
+
+#### Generators:
+22. Generators are iterators that yield items lazily, which can save memory when dealing with large data sets.
+
+#### Exception Handling:
+23. Use `try`, `except`, `finally` blocks to catch and handle exceptions in Python.
+
+#### `map()` and `filter()`:
+24. `map()` and `filter()` are higher-order functions that apply a function to each element in an iterable (map) or filter elements based on a condition (filter).
+
+#### Modules and Packages:
+25. Modules are `.py` files that contain Python code. Packages are collections of modules. Use `import` to include them in your script.
+
+#### `with` Statement:
+26. Use the `with` statement to simplify resource management like file I/O operations.
+
+#### String Manipulation:
+27. Python strings have built-in methods for common operations like `lower()`, `upper()`, `split()`, and `join()`.
+
+#### File Operations:
+28. Python has built-in functions for file reading (`open()`, `read()`) and writing (`write()`).
+
+#### Decorators:
+29. Decorators are higher-order functions that allow you to add functionality to an existing function by passing the existing function to a decorator.
+
+#### Regular Expressions:
+30. The `re` module provides regular expression matching operations.
+
+#### Type Annotations:
+31. Python 3.5+ supports optional type annotations for documenting the expected data types of function arguments and return values.
+
+#### The `pass` Statement:
+32. The `pass` statement is a null operation that serves as a placeholder where syntactically some code is required.
+
+#### Assertion:
+33. The `assert` statement can be used to insert debugging checks. It raises an `AssertionError` if a specified condition is not true.
+
+#### Context Managers:
+34. Context managers ensure resources are properly and automatically managed using `__enter__` and `__exit__` methods, commonly used in file operations and network connections.
+
+---
+
+## Python datatypes and data structures,  rigorously categorized:
+
+### Built-in Python Data Types:
+1. `int` - Integer numbers
+2. `float` - Floating-point numbers
+3. `bool` - Boolean (`True` or `False`)
+4. `str` - String
+5. `bytes` - Byte literals
+6. `bytearray` - Mutable sequence of bytes
+7. `NoneType` - Type of `None`
+
+### Built-in Python Data Structures:
+1. `list` - Ordered, mutable sequence
+2. `tuple` - Ordered, immutable sequence
+3. `set` - Unordered collection of unique elements
+4. `dict` - Unordered collection of key-value pairs
+5. `frozenset` - Immutable version of a set
+
+#### Creating a Custom Data Type in Python:
+In Python, you can create a custom data type using classes. For example, you could define a data type for representing a point in a two-dimensional space.
+
+```python
+class Point2D:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+```
+
+Usage:
+
+```python
+p = Point2D(3, 4)
+```
+
+#### Creating a Custom Data Structure in Python:
+You can also create custom data structures using classes. Here's a basic example where we implement a simple stack.
+
+```python
+class Stack:
+    def __init__(self):
+        self.items = []
+        
+    def push(self, item):
+        self.items.append(item)
+        
+    def pop(self):
+        return self.items.pop()
+        
+    def is_empty(self):
+        return len(self.items) == 0
+```
+
+Usage:
+
+```python
+s = Stack()
+s.push(1)
+s.push(2)
+print(s.pop())  # Output: 2
+```
+
+The `Point2D` class serves as a custom data type to represent a 2D point, while the `Stack` class is a custom data structure for managing items in a last-in, first-out (LIFO) manner.
