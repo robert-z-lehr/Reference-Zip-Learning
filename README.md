@@ -12,3 +12,4 @@
 | Tableau | Data visualization tool | [Tableau Documentation](https://help.tableau.com/current/pro/desktop/en-us.htm) | [Tableau Cheat Sheet](https://help.tableau.com/current/pro/desktop/en-us/cheatsheet.htm) |
 | R | Statistical computing and graphics language | [R Documentation](https://cran.r-project.org/manuals.html) | [R Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/10/r-cheat-sheet-3.pdf) |
 | Excel VBA | Automation in Microsoft Excel | [Excel VBA Documentation](https://docs.microsoft.com/en-us/office/vba/api/overview/excel) | [Excel VBA Cheat Sheet](https://www.excel-vba.com/excel-vba-contents.htm) |
+| Regular Expressions | Sequence of characters to define search patterns | [RegEx Reference](https://www.rexegg.com/) | [RegEx Cheat Sheet](https://www.rexegg.com/regex-quickstart.html#ref) |
