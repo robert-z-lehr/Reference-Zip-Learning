@@ -13,3 +13,4 @@
 | R | Statistical computing and graphics language | [R Documentation](https://cran.r-project.org/manuals.html) | [R Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/10/r-cheat-sheet-3.pdf) |
 | Excel VBA | Automation in Microsoft Excel | [Excel VBA Documentation](https://docs.microsoft.com/en-us/office/vba/api/overview/excel) | [Excel VBA Cheat Sheet](https://www.excel-vba.com/excel-vba-contents.htm) |
 | Regular Expressions | Sequence of characters to define search patterns | [RegEx Reference](https://www.rexegg.com/) | [RegEx Cheat Sheet](https://www.rexegg.com/regex-quickstart.html#ref) |
+| Python Formatting | String formatting best practicues | [Real Python](https://realpython.com/python-string-formatting/#option-2-string-format) | [Python Docs](https://docs.python.org/3/library/stdtypes.html#printf-style-string-formatting) |
